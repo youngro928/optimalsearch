@@ -2,11 +2,11 @@
 
 Supplementary code for the journal paper:
 
-> **"An Optimal Search Framework for the Maximum-Probability Target-Detection Problem in Discrete Time and Space"**
+> **"Optimal Search via Discrete-Time Pontryagin’s Minimum Principle and Recursive Bayesian Estimation"**
 > Youngro Lee, Vladimir N. Dobrokhodov, Mark Karpenko
 > Naval Postgraduate School
 > *IEEE Transactions on Automation Science and Engineering*, 2026
-> DOI: [DOI link]
+> submitted
 
 This framework generates optimal search trajectories for a sensor-equipped
 agent tasked with maximizing the probability of detecting a stationary target.
