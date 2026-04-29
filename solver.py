@@ -170,13 +170,13 @@ class OptimalSearchSolver:
             term0x = np.sum(b[k - 1, :, :] * ddldx)
             term1x = (-qk * ddldx + (1 - dk) * term0x) / (qk ** 2 + 1e-15)
             term2x = np.sum(lb[k, :, :] * b[k - 1, :, :] * term1x)
-            lx[k - 1] = lx[k] + (-term0x / (qk + 1e-15) + term2x) * self.sim.dt
+            lx[k - 1] = lx[k] + (-term0x / (qk + 1e-15) + term2x) 
 
             # Lambda_y update
             term0y = np.sum(b[k - 1, :, :] * ddldy)
             term1y = (-qk * ddldy + (1 - dk) * term0y) / (qk ** 2 + 1e-15)
             term2y = np.sum(lb[k, :, :] * b[k - 1, :, :] * term1y)
-            ly[k - 1] = ly[k] + (-term0y / (qk + 1e-15) + term2y) * self.sim.dt
+            ly[k - 1] = ly[k] + (-term0y / (qk + 1e-15) + term2y) 
 
             # Lambda_b update
             term1b = (1 - dk) / (qk + 1e-15)
