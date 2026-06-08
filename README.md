@@ -5,7 +5,7 @@ Supplementary code for the journal paper:
 > **"Optimal Search via Discrete-Time Pontryagin’s Minimum Principle and Recursive Bayesian Estimation"**
 > Youngro Lee, Vladimir N. Dobrokhodov, Mark Karpenko
 > Naval Postgraduate School
-> *IEEE Transactions on Automation Science and Engineering*, 2026
+> *AIAA Journal of Aerospace Information Systems*, 2026
 > submitted
 
 This framework generates optimal search trajectories for a sensor-equipped
